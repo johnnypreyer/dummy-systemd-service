@@ -1,0 +1,11 @@
+[Unit]
+Description=Dummy systemd service from roadmap.sh/projects/dummy-systemd-service excercise
+After=user.target
+
+[Service]
+ExecStart=/home/jpreyer/dummy-systemd-service/service.sh
+Type=simple
+
+
+[Install]
+WantedBy=default.target
