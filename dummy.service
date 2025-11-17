@@ -5,6 +5,8 @@ After=user.target
 [Service]
 ExecStart=/home/jpreyer/dummy-systemd-service/service.sh
 Type=simple
+Restart=always
+User=root
 
 
 [Install]
